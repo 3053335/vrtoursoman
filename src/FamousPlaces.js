@@ -78,7 +78,7 @@ export default function FamousPlaces({navigation, route}) {
         }}>
         Famous places to visit in {country}, {city}
       </Text>
-SZ
+
       {data &&
         data.map(item => (
           <TouchableOpacity
